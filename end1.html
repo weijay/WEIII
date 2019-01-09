@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Web Tutorials">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="WEIIIIIIIIII">
+<style>
+body {background-image:url("空白.jpg");
+background-repeat:no-repeat;}
+body{background-color:#006600}
+</style>
+<body>
+	<form>
+<h3>輸入骰子總和(3~18): <input type="text" id="number"></h3>
+</form>
+<button type="button" onclick="eval()">送出</button>
+<script>
+function eval(){
+var answer=document.getElementById("number").value;
+if (answer=="3"){
+alert("對家");
+}
+else if(answer=="7") {
+alert("對家");
+}
+else if(answer=="11") {
+alert("對家");
+}
+else if(answer=="15") {
+alert("對家");
+}
+else if(answer=="4") {
+alert("上家");
+}
+else if(answer=="8") {
+alert("上家");
+}
+else if(answer=="12") {
+alert("上家");
+}
+else if(answer=="16") {
+alert("上家");
+}
+else if(answer=="5") {
+alert("莊家");
+}
+else if(answer=="9") {
+alert("莊家");
+}
+else if(answer=="13") {
+alert("莊家");
+}
+else if(answer=="17") {
+alert("莊家");
+}
+else if(answer=="6") {
+alert("下家");
+}
+else if(answer=="10") {
+alert("下家");
+}
+else if(answer=="14") {
+alert("下家");
+}
+else if(answer=="18") {
+alert("下家");
+}
+else{alert("重新輸入")}
+}
+</script>
+</body>
+</html>
